@@ -303,8 +303,8 @@
         position: absolute;
         top: 0;
         left: 0;
-        width: 100%;
-        height: auto;
+        width: 100% !important;
+        height: auto !important;
         transition: opacity 0.2s ease;
       }
 
@@ -314,14 +314,17 @@
 
       .fav-heart:hover .fav-hover-heart {
         opacity: 1;
+       
       }
-
-      .fav-heart:hover .default-heart {
+      .default-heart{
         width: 25px;
         height: 25px;
         position: absolute;
         top: 13px;
         right: 12px;
+      }
+      .fav-heart:hover .default-heart {
+       display:none;
       }
 
       .fav-heart.filled .default-heart,
@@ -390,6 +393,12 @@
         }
         .carousel-product-item-content {
           padding: 0 10px 10px;
+        }
+        .add-basket-button{
+          padding: 10px !important;
+        }
+        .carousel-product-item-stars-wrapper {
+          gap: 0px;
         }
       }
       @media screen and (max-width: 375px) {
