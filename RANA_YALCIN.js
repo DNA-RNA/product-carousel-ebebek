@@ -444,7 +444,7 @@
         if (p.price !== p.original_price && p.price < p.original_price) {
           const discount = Math.round(100 * (1 - p.price / p.original_price));
           priceHTML = `
-    <div class="d-flex align-items-center">
+    <div style="display: flex; align-items: center;">
       <span class="product-item-old-price">${p.original_price.toFixed(
         2
       )} TL</span>
