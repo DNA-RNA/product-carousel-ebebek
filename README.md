@@ -22,6 +22,8 @@ This ensures consistent styling and layout with the existing e-bebek page struct
 
 ## Demo Screenshots
 
+![Ekran Resmi 2025-07-02 21 14 10](https://github.com/user-attachments/assets/d497e05a-1884-4330-ac30-42d21e9851c2)
+
 
 
 ## Yerleşim
